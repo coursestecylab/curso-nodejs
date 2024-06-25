@@ -1,0 +1,13 @@
+function saludar(nombre <- error  {
+    return 'Hola, ' + nombre
+}) <- error
+
+function saludar(nombre)  {
+    return 'Hola, ' + nombre
+} <- error
+
+
+
+console.log(saludar('saul'))
+
+// Hola, saul 
