@@ -1,7 +1,11 @@
-const { builtinModules } = require("module");
+const express = require("express");
 
-console.log("Modulos nucleo de NodeJS");
+const app = express();
 
-builtinModules.forEach((modulo) => {
-  console.log(modulo);
+app.get("/", (req, res) => {
+  req.token = 10 + "10";
+  res.send("Hello TecyLab");
 });
+
+app.listen(3000);
+console.log("Server is running on port 3000");

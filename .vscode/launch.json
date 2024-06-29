@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/flujo-trabajo/depurador/vscode-dep/index.js"
+            "program": "${workspaceFolder}/index.js"
         }
     ]
 }
